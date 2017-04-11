@@ -11,4 +11,8 @@
   		<scope>compile</scope>
   	</dependency>
   </dependencies>
+  <scm>
+  	<url>https://github.com/poorbarry/polishpiglatin.git</url>
+  	<developerConnection>Dan Muszynski</developerConnection>
+  </scm>
 </project>

@@ -1,8 +1,5 @@
 package com.poorbarry.polishpiglatin;
 
-import static org.junit.Assert.assertThat;
-
-import org.hamcrest.CoreMatchers;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
