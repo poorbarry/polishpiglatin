@@ -9,10 +9,6 @@ public class PigLatinGenerator {
 	private static final String YAY = DASH + "yay";
 	private static final Pattern STARTS_WITH_VOWEL = Pattern.compile("^[aeiouy]", Pattern.CASE_INSENSITIVE);
 
-	public static void main(String[] args) {
-
-	}
-
 	public String translate(String text) {
 		if (startsWithVowel(text)) {
 			return text + YAY;
@@ -28,5 +24,4 @@ public class PigLatinGenerator {
 	private boolean startsWithVowel(String text) {
 		return STARTS_WITH_VOWEL.matcher(text).find();
 	}
-
 }
