@@ -3,6 +3,8 @@ package com.poorbarry.polishpiglatin;
 import java.util.regex.Pattern;
 
 public class PigLatinGenerator {
+//	Rules for Pig Latin:
+//	http://www.wikihow.com/Speak-Pig-Latin
 
 	private static final String DASH = "-";
 	private static final String AY = "ay";
