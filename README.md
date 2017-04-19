@@ -2,6 +2,8 @@
 
 You can use the [editor on GitHub](https://github.com/poorbarry/polishpiglatin/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
+The "rules" for generating Pig Latin can be found here: [Speak Pig Latin](http://www.wikihow.com/Speak-Pig-Latin)
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
