@@ -1,20 +1,20 @@
 package com.poorbarry.polishpiglatin;
 
-import static java.util.Arrays.asList;
 import static java.util.regex.Pattern.CASE_INSENSITIVE;
 import static java.util.stream.Collectors.joining;
 
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
-public class PigLatinGenerator {
+class PigLatinGenerator {
 	// Rules for Pig Latin:
 	// http://www.wikihow.com/Speak-Pig-Latin
 
 	private static final String YAY = "-yay";
 	private static final Pattern STARTS_WITH_VOWEL = Pattern.compile("^[aeiou]", CASE_INSENSITIVE);
 
-	public String translate(String text) {
-		return asList(text.split(" ")).stream().map(word -> toPigLatin(word)).collect(joining(" "));
+	String translate(String text) {
+		return Arrays.stream(text.split(" ")).map(word -> toPigLatin(word)).collect(joining(" "));
 	}
 
 	private String toPigLatin(String word) {
